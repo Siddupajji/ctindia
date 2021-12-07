@@ -1,0 +1,56 @@
+<div class="container text-center mt-5 mb-4">
+  <h2 style="font-family: 'IM Fell English SC', serif; ">
+    <strong>Get The Best Version of Muscles</strong>
+  </h2>
+</div>
+
+<section class="cards">
+  <div class="box">
+    <div class="top-img">
+      <img  [lazyLoad]="Imagesrc1">
+    </div>
+
+      <h5>Dumbell 1</h5>
+
+    <div class="buy">
+      <button id="card-btn" type="button" class="btn btn-primary btn-sm"><a (click)="opendialog()">View-in-detail</a></button>
+    </div>
+  </div>
+  <div class="box">
+    <div class="top-img">
+      <img  [lazyLoad]="Imagesrc2">
+    </div>
+
+      <h5>Dumbell 1</h5>
+
+    <div class="buy">
+      <button id="card-btn" type="button" class="btn btn-primary btn-sm"><a (click)="second()">View-in-detail</a></button>
+    </div>
+  </div>
+  <div class="box">
+    <div class="top-img">
+      <img  [lazyLoad]="Imagesrc3">
+    </div>
+
+      <h5>Dumbell 1</h5>
+
+    <div class="buy">
+      <button id="card-btn" type="button" class="btn btn-primary btn-sm"><a>View-in-detail</a></button>
+    </div>
+  </div>
+  <div class="box">
+    <div class="top-img">
+      <img [lazyLoad]="Imagesrc4">
+    </div>
+
+      <h5>Dumbell 1</h5>
+
+    <div class="buy">
+      <button id="card-btn" type="button" class="btn btn-primary btn-sm"><a>View-in-detail</a></button>
+    </div>
+  </div>
+
+</section>
+
+<br>
+<br>

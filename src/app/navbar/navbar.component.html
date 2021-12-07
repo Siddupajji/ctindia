@@ -1,0 +1,54 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- background-color: #ebeff1; -->
+<nav ngxNavbarDynamicExpand class="navbar navbar-light" style="background-color: #110a33;">
+    <a class="navbar-brand" href="#" style="font-family: 'Rye', cursive; font-size: 18px; color: rgb(255, 255, 255);" >
+      <img class="img" src="assets/Fl.png">
+      <fa-icon style="margin-right: 10px; font-size: 18px;" [icon]="faDumbbell"></fa-icon>CTSTRENGTH INDIA</a>
+     <!-- <a class="navbar-brand" href="#" ><img class="img" src="assets/Fl.png">CTSTRENGTH</a> -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="collapse.toggle()"
+      aria-controls="main-nav"
+      aria-expanded="false"
+      aria-label="Navigáció kapcsoló"
+      style="color: white;"
+    >
+      <span
+        class="navbar-toggler-icon d-flex align-items-center justify-content-center" style="color: white; filter: invert(1);"
+      >
+      </span>
+    </button>
+    <ngx-navbar-collapse #collapse="ngxNavbarCollapse" id="main-nav" >
+      <ul class="navbar-nav ml-auto dropdown">
+        <li class="nav-item active">
+          <a class="nav-link"  href="#" style=" font-family: 'Rye', cursive; font-size: 15px; color: white;"  (click)="Home()" ><fa-icon style="margin-right: 10px; font-size: 15px; color: rgb(255, 255, 255);" [icon]="faHome"></fa-icon>Home<span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown"  href="#" style=" font-family: 'Rye', cursive; font-size: 15px; color: rgb(255, 255, 255);" ><i class="fa fa-cube" style="font-size: 15px; color: white; margin-right: 10px;" aria-hidden="true"></i>Products<span class="caret"></span></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#" routerLink="shop">BarBells</a>
+            <!-- <a class="dropdown-item" href="#" routerLink="dumbell">Dumbells</a> -->
+            <a class="dropdown-item" href="#" routerLink="weight">Weights</a>
+            <a class="dropdown-item" href="#" routerLink="testing">Dumbells</a>
+          </div>
+        </li>
+        <!-- routerLink="gallery" (click)="gallery()" -->
+        <li class="nav-item">
+          <a class="nav-link"  href="#" style=" font-family: 'Rye', cursive; font-size: 15px; color: rgb(255, 255, 255);" routerLink="gallery"  ><fa-icon style="margin-right: 10px; font-size: 15px; color: rgb(255, 255, 255);" [icon]="faPhotoVideo"></fa-icon>Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style=" font-family: 'Rye', cursive; font-size: 15px; color: rgb(255, 255, 255);" routerLink="contact"><i class="fas fa-phone-alt" style="margin-right: 10px;"></i>Contact-us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style=" font-family: 'Rye', cursive; font-size: 15px; color: rgb(255, 255, 255);" routerLink="about" ><fa-icon style="margin-right: 10px; font-size: 15px; color: rgb(255, 255, 255);" [icon]="faUserFriends"></fa-icon>About-us</a>
+        </li>
+        
+      </ul>
+    </ngx-navbar-collapse>
+  </nav>
+
+  <img class="rotate" src="assets/Fl.png" style="z-index: 9999999; position: absolute; width: 105px; height: 105px; left: 45%; top: 0.2%;"> 
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <style>
+
+
+
+      @media screen and (max-width: 412px) {
+        .img {
+          display: none;
+          width: 100%;
+          margin: 3px;
+        }
+        .information {
+          margin: 0px 0px;
+          display: flex;
+          width: auto;
+          justify-content: center;
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+        h2 {
+          color: brown;
+        }
+        #name{
+          font-size: 20px;
+        }
+        #name1{
+          font-size: 20px;
+        }
+        #weight{
+          font-size: 20px;
+        }
+        #fifteen{
+          font-size: 20px;
+          margin-bottom: 4px;
+          color: brown;
+        }
+        #description{
+          font-size: 20px;
+          display: block;
+          max-height: 20px;
+          width: 100%;
+        }
+        #lorem{
+          font-size: 20px;
+          width: 100%;
+
+
+        }
+        #id{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-3 d-flex justify-content-center align align-items-center">
+      <img class="img"
+        src="../../assets/Ctstrength/04.jpg"
+        style="width: 300px; height: 350px"
+      />
+      <div class="information p-4">
+        <div class="d-flex justify-content-start align-items-center">
+          <h2 id="name">Name :-</h2>
+          <h2 id="name1" style="margin-top: 4px">Dumbell</h2>
+        </div>
+
+
+        <div class="d-flex">
+          <h2 id="weight">Weight :-</h2>
+          <h3 id="fifteen" style="margin-top: 5px">15 KG</h3>
+        </div>
+
+        <div id="last">
+        <h2 id="description">Description:-</h2>
+        <p id="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
+          voluptates sunt accusamus delectus, vitae corrupti in? Minus nisi,
+          accusamus impedit cum molestias fugiat error, minima velit deserunt
+          fugit a doloremque!
+        </p>
+        </div>
+
+        <ul class="list-unstyled list-inline rating mb-0 mt-0">
+          <li class="list-inline-item mr-0">
+            <i class="fas fa-star amber-text" style="font-size: 10px"> </i>
+          </li>
+          <li class="list-inline-item mr-0">
+            <i class="fas fa-star amber-text" style="font-size: 10px"></i>
+          </li>
+          <li class="list-inline-item mr-0">
+            <i class="fas fa-star amber-text" style="font-size: 10px"></i>
+          </li>
+          <li class="list-inline-item mr-0">
+            <i class="fas fa-star amber-text" style="font-size: 10px"></i>
+          </li>
+          <li class="list-inline-item">
+            <i
+              class="fas fa-star-half-alt amber-text"
+              style="font-size: 10px"
+            ></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>
